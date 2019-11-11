@@ -1,24 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zio", "Zio\Zio.csproj", "{C32F22EB-323B-489F-A825-BC5018EC7A7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zio", "Zio\Zio.csproj", "{16881878-1C68-4D4F-93A2-584D7A721369}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zio.Tests", "Zio.Tests\Zio.Tests.csproj", "{CE2FA165-222F-48F1-9D46-140F01687C06}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{3F93B71B-B8B6-4B48-9D86-A8EC85A8C2F8}"
-	ProjectSection(SolutionItems) = preProject
-		..\appveyor.yml = ..\appveyor.yml
-		..\changelog.md = ..\changelog.md
-		..\license.txt = ..\license.txt
-		..\readme.md = ..\readme.md
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{DE54AD2A-E02D-4AA0-B055-F288662C58A4}"
-	ProjectSection(SolutionItems) = preProject
-		..\doc\readme.md = ..\doc\readme.md
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zio.Tests", "Zio.Tests\Zio.Tests.csproj", "{B0997C06-DE9D-420B-9BB7-D12B54132B4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,19 +13,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C32F22EB-323B-489F-A825-BC5018EC7A7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C32F22EB-323B-489F-A825-BC5018EC7A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C32F22EB-323B-489F-A825-BC5018EC7A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C32F22EB-323B-489F-A825-BC5018EC7A7F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CE2FA165-222F-48F1-9D46-140F01687C06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CE2FA165-222F-48F1-9D46-140F01687C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CE2FA165-222F-48F1-9D46-140F01687C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CE2FA165-222F-48F1-9D46-140F01687C06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16881878-1C68-4D4F-93A2-584D7A721369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16881878-1C68-4D4F-93A2-584D7A721369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16881878-1C68-4D4F-93A2-584D7A721369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16881878-1C68-4D4F-93A2-584D7A721369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0997C06-DE9D-420B-9BB7-D12B54132B4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0997C06-DE9D-420B-9BB7-D12B54132B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0997C06-DE9D-420B-9BB7-D12B54132B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0997C06-DE9D-420B-9BB7-D12B54132B4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {AD472F4F-94D0-4940-A066-5DC00F4AD7A3}
+		SolutionGuid = {0C21DEBD-B2FD-405F-A0C0-5E3C658F2D10}
 	EndGlobalSection
 EndGlobal
